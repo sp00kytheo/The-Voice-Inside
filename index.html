@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <button id="themeButton">Dark Theme</button>
+        <title>The Voice Inside</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>The Voice Inside</h1>
+        <p> Δεν είσαι αδύναμος/-η επειδή νιώθεις.</p>
+
+        <textarea id="thoughtInput" placeholder="Γράψε τις σκέψεις σου εδώ..."></textarea>
+        
+        <p id="characterCount"> Χαρακτήρες: 0</p>
+        <p id="wordCount"> Λέξεις: 0</p>
+        
+
+        <button id="showAllButton"> 📋 Όλες </button>
+
+    <div id="favoritesSection">
+        <button id="showFavoritesButton"> ⭐ Αγαπημένες </button>
+        <h2 id="favoritesTitle">⭐ Αγαπημένες σκέψεις (0)</h2>
+        <div id="favoritesContainer"> </div>
+    </div>
+
+        <br><br>
+
+        <div id="moodContainer">
+
+            <button class="moodButton" data-mood="🙂">🙂</button>
+            <button class="moodButton" data-mood="😐">😐</button>
+            <button class="moodButton" data-mood="😔">😔</button>
+        </div>
+        
+        <br>
+
+        <button id="saveButton"> Αποθήκευση </button>
+
+        <button id="deleteButton"> Διαγραφή όλων των σκέψεων </button>
+
+        <button id="exportButton"> Εξαγωγή ημερολογίου </button>
+
+    <div id="searchSection">
+        <h3> Αναζήτηση </h3>
+        
+        <input 
+            type="text"
+            id="searchInput"
+            placeholder="Αναζήτηση σκέψεων..."
+        >
+        <button id="clearSearchButton">
+            Καθαρισμός αναζήτησης
+        </button>
+        <p id="searchResults">
+            Εμφανίζονται όλες οι καταγραφές.
+        </p>
+    </div>
+
+    <div id="statsSection">
+        <h2>Οι σκέψεις μου.</h2>
+        <div id="moodStats">
+            <h3>Στατιστικά κατάστασης</h3>
+            <p id="totalThoughts">
+                Συνολικές καταγραφές: 0
+            </p>
+            
+            <p id="mainMood">
+                Κυρίαρχη διάθεση: Δεν έχει καταγραφεί ακόμα.
+            </p>
+            <p id="happyCount">Χαρούμενες σκέψεις 🙂: 0</p>
+            <p id="neutralCount">Ουδέτερες σκέψεις 😐: 0</p>
+            <p id="sadCount">Λυπηρές σκέψεις 😔: 0</p>
+        </div>
+    <div id="thoughtsSection">
+        <div id="thoughtsContainer">
+            Καμία σκέψη δεν έχει αποθηκευτεί ακόμα.
+        </div>
+    </div>    
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>

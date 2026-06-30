@@ -1,0 +1,77 @@
+/*
+==================================================
+
+THE VOICE INSIDE
+
+VERSION 1.9.8
+"The Cleanup Update"
+
+DEVELOPED BY:
+TH3O'S PRODUCTIONS
+
+CURRENT STATUS:
+STABLE
+
+Keep creating. 💜
+==================================================
+*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #4a6fa5;
+}
+
+textarea {
+    width: 80%;
+    height: 120px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#thoughtsContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+#moodContainer {
+    margin: 15px;
+}
+
+.moodButton {
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#deleteButton {
+    margin-left: 10px;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#clearSearchButton {
+    margin-left: 10px;
+}
+
+.favoriteButton {
+    margin-top: 8px;
+}
